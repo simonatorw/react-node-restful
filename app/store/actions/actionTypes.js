@@ -1,0 +1,7 @@
+export default {
+	data: {
+		GET_DATA: 'GET_DATA',
+		GET_DATA_SUCCEEDED: 'GET_DATA_SUCCEEDED',
+		GET_DATA_FAILED: 'GET_DATA_FAILED'
+	}
+};

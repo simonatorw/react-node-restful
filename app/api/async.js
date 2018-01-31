@@ -1,0 +1,1 @@
+export const fetchGet = async (url) => await (await fetch(url)).json();

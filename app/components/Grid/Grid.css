@@ -1,0 +1,44 @@
+.gridComp {
+	clear: both;
+	
+	.pagination {
+		float: right;
+		margin-bottom: 3px;
+		
+		.separator {
+			margin: 0 6px;
+		}
+	}
+	.grid {
+		width: 100%;
+		border-collapse: collapse;
+
+		.gridHead {
+			font-weight: normal;
+			border-bottom: 1px solid #808080;
+			padding: 5px;
+			text-align: left;
+		}
+		.gridCell {
+			padding: 5px;
+			
+			&:first-child {
+				width: 21%;
+			}
+			&:nth-child(2) {
+				width: 39%;
+			}
+			&:nth-child(3) {
+				width: 20%;
+			}
+			&:last-child {
+				width: 20%;
+			}		
+		}
+		tr:last-child {
+			.gridCell {
+				border-bottom: 0;
+			}
+		}
+	}
+}
